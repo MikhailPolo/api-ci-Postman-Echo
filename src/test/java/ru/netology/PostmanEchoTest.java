@@ -10,7 +10,7 @@ class PostmanEchoTest {
     void shouldGetData() {
         given()
                 .baseUri("https://postman-echo.com")
-                .body("some data")
+                .body("14.01.2023")
         .when()
                 .post("/post")
         .then()
